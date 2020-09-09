@@ -1,12 +1,13 @@
 #include<stdio.h>
 int main()
 {
-	int mat1[100][100],mat2[100][100];
+	int mat1[100][100];
 	int m, n, i, j;
-	printf("Insert Roll :");
+	printf("Insert Matrix's Roll :");
 	scanf_s("%d", &m);
-	printf("Insert Column :");
+	printf("Insert Matrix's Column :");
 	scanf_s("%d", &n);
+	printf("Insert Member in Matrix :\n");
 	for (i = 0; i < m; i++)
 	{
 		for (j = 0; j < n; j++)
